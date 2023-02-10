@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+
+* {
+    margin: 16px;
+	  padding: 0;
+	  border: 0;
+    background-color: #F6F4F0;
+}
+
+.header {
+    text-align: center;
+    font-family: 'Source Serif Pro', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 84px;
+    line-height: 100px;
+    color: #FF6B00;
+}
+
+.navbar {
+    position: relative;
+    overflow: hidden;
+  }
+
+.navlist li {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 32px;
+    margin-right: 32px;
+    float: left;
+    list-style: none;
+    font-size: 20px;
+    justify-content: center;
+  }
+
+.navlist li a:hover {
+    color: #FF6B00;
+  }
+
+.navbar {
+    text-align: center;
+  }
+.navlist {
+    display: inline-block;
+    margin-top: 0.5px;
+    margin-bottom: 0.5px;
+    font-family: 'Source Serif Pro', serif;
+ }
+
+.solid {
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+}
+
+.solid2 {
+  border-top: 4px solid #FF6B00;
+  border-bottom: 4px solid #FF6B00;
+}
+
+
+h3 {
+  margin: 0%;
+  font-family: 'Source Serif Pro', serif;
+  line-height: 53px;
+  font-size: 20px;
+  color: #FF6B00;
+}
+h5 {
+  margin: 0%;
+  font-family: 'Source Serif Pro', serif;
+  line-height: 31px;
+  font-size: 12px;
+  font-weight: 400;
+}
+h4 {
+  margin: 0%;
+  text-align: justify;
+  font-family: 'Source Serif Pro', serif;
+  line-height: 41px;
+  font-size: 16px;
+  font-weight: 400;
+}
+h2 {
+  margin: 0%;
+  font-family: 'Source Serif Pro', serif;
+  line-height: 31px;
+  font-size: 20px;
+  font-weight: 200;
+  text-align: justify;
+}
+
+h1 {
+      
+  font-family: 'Source Serif Pro', serif;
+  line-height: 31px;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: justify;
+  color: #FF6B00;
+}
+
+.columns {
+  display: flex;
+  margin-top: 8px;
+  margin-bottom: 0.3px;
+}
+
+.column1 {
+  padding: 30px;
+  vertical-align: top;
+}
+.column2 {
+  padding: 30px;
+  vertical-align: top;
+}
+
+.about {
+  display: grid;
+  align-items: center; 
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5px;
+  padding: 80px;
+ }
+
+.content {
+  padding-top: 30px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.poster {
+  display: flex;
+  justify-content: space-between;
+  margin: 0%;
+}
+
+.blog {
+  margin: 0%;
+  background-color: #ffffff;
+}
+
+.box {
+  border-color: rgb(0, 0, 0);
+  border-width: 3px;
+  border-style: solid;
+  display: flex;
+  background-color: #ffffff;
+  /* position: relative;
+  width: calc(400px -30px);
+  height: calc(100px -10px);
+  background: rgb(0, 0, 0);
+  float: left;
+  margin: 4px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border: #000000; */
+}
